@@ -7,12 +7,3 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.container img {
-  width: 290px;
-  height: 380px;
-}
-
-.value {
-  font-weight: bold;
-}
