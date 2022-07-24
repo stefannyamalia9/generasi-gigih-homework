@@ -2,7 +2,9 @@ import React from "react";
 
 const Images = (props) => {
     return(
-        <img src={props.imgSrc} alt={props.title}/>
+        <div>
+            <img src={props.imgSrc} alt={props.title}/>
+        </div>
     )
 }
 
