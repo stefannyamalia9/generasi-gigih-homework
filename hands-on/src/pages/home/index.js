@@ -1,14 +1,15 @@
 import React from 'react';
+import Form from '../../components/input-form';
+import Button from '../../components/button';
+import MapGiphywithFilterKey from '../../function/filter_g';
 
 function AddInputAndButton() {
-    const imgsrc = "https://media.giphy.com/media/Vh8pbGX3SGRwFDh3v0/source.gif";
-    return(
+    return (
         <div>
-            <form>
-                <input/>
-                <button>Search</button>
-            </form>
-            <img src={imgsrc} alt="img"/>
+            <Form placeholder="Type your giphy name">
+                <Button buttonName="Search" />
+            </Form>
+            <MapGiphywithFilterKey />
         </div>
     )
 }
